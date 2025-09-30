@@ -1,102 +1,106 @@
-# HUSTEF 2025 - Workshop | Automated Testing in CI/CD with Jenkins & GitHub Actions
+# TESTWAREZ 2025 – Automatyzacja Testów w CI/CD: Praktyczne Warsztaty z Jenkins i GitHub Actions
 
-Dear Participant,
+Drogi Uczestniku,  
 
-I’m glad you chose my workshop :)
+Cieszę się, że wybrałeś mój warsztat :)  
 
-To verify the environment we'll be using during the workshop, please follow the steps outlined in the WORKSHOP INSTRUCTIONS section.
-
-## WORKSHOP INSTRUCTIONS
-
-Please make sure to arrive at the workshop with a **laptop** – preferably running **Windows**.  
-Ensure that your laptop is not restricted by any limitations such as:
-
-- lack of administrative privileges (required to install tools),
-- restricted internet access (VPN, firewall, proxy, etc.).
+Aby zweryfikować środowisko, którego będziemy używać podczas warsztatu, proszę wykonaj kroki opisane w sekcji **INSTRUKCJE DO WARSZTATU**.
 
 ---
 
-### Prerequisites
+## INSTRUKCJE DO WARSZTATU
 
-#### Skills:
-- Basic understanding of software testing and version control
-- GitHub account and basic Git knowledge
+Upewnij się, że przychodzisz na warsztat z **laptopem** – najlepiej z systemem **Windows**.  
+Twój laptop nie powinien mieć ograniczeń, takich jak:
 
-#### Technical Prerequisites:
+- brak uprawnień administratora (potrzebne do instalacji narzędzi),  
+- ograniczony dostęp do internetu (VPN, firewall, proxy itp.).  
 
-#### 1. Install VS Code IDE  
-Download and install from:  
-👉 https://code.visualstudio.com/download
+---
 
-#### 2. Install Java JDK (version 11 or newer)  
-Download from:  
-👉 https://www.oracle.com/java/technologies/downloads/  
+## Wymagania wstępne
 
-After installation, open **CMD** and verify the installation:
+### Umiejętności
+- Podstawowa znajomość testowania oprogramowania i systemu kontroli wersji  
+- Konto GitHub oraz podstawowa wiedza o Git  
+
+### Wymagania techniczne
+
+#### 1. Zainstaluj VS Code IDE  
+Pobierz i zainstaluj z:  
+👉 [https://code.visualstudio.com/download](https://code.visualstudio.com/download)  
+
+#### 2. Zainstaluj Java JDK (wersja 11 lub nowsza)  
+Pobierz z:  
+👉 [https://www.oracle.com/java/technologies/downloads/](https://www.oracle.com/java/technologies/downloads/)  
+
+Po instalacji otwórz **CMD** i sprawdź instalację:
 ```bash
 java -version
 javac -version
 ```
-Both commands should return the installed JDK version.
 
-#### 3. Install Python (version 3.13.2)  
-Download from:  
-👉 https://www.python.org/downloads/  
+Obie komendy powinny zwrócić zainstalowaną wersję JDK.  
 
-During the installation, make sure to **check the box**:  
-✅ `Add python.exe to PATH`
+#### 3. Zainstaluj Python (wersja 3.13.2)  
+Pobierz z:  
+👉 [https://www.python.org/downloads/](https://www.python.org/downloads/)  
 
-Then, verify installation:
+Podczas instalacji upewnij się, że zaznaczyłeś opcję:  
+`Add python.exe to PATH`  
+
+Następnie sprawdź instalację:
 ```bash
 python --version
 ```
-You should see the installed Python version.
+
+Powinieneś zobaczyć zainstalowaną wersję Pythona.  
 
 ---
 
-### GitHub & Project Setup
+## GitHub i konfiguracja projektu
 
-#### 4. Fork the Repository  
-Go to:  
-👉 https://github.com/tklepacki/hustef-ci  
+#### 4. Forkuj repozytorium  
+Przejdź do:  
+[https://github.com/tklepacki/hustef-ci](https://github.com/tklepacki/hustef-ci)  
 
-Click **Fork** to create a copy in your GitHub account.
+Kliknij **Fork**, aby utworzyć kopię w swoim koncie GitHub.  
 
-> ℹ️ Don’t have a GitHub account? Create one first at https://github.com
+> Nie masz konta na GitHubie? Najpierw utwórz je na [https://github.com](https://github.com)  
 
-#### 5. Clone Your Forked Repository  
-Clone your forked repo to your local machine:
+#### 5. Sklonuj swoje sforkowane repozytorium  
+Sklonuj repozytorium na swój komputer lokalny:
 ```bash
-git clone https://github.com/YOUR_USERNAME/hustef-ci.git
+git clone https://github.com/TWOJ_USERNAME/hustef-ci.git
 ```
 
-#### 6. Open the Project in VS Code  
-Navigate to the cloned folder and open it in VS Code.
+#### 6. Otwórz projekt w VS Code  
+Przejdź do sklonowanego folderu i otwórz go w VS Code.  
 
 ---
 
-### Docker & Jenkins Setup
+## Docker i Jenkins
 
-#### 7. Install Docker Desktop  
-Download from:  
-👉 https://www.docker.com/products/docker-desktop
+#### 7. Zainstaluj Docker Desktop  
+Pobierz z:  
+[https://www.docker.com/products/docker-desktop](https://www.docker.com/products/docker-desktop)  
 
-After installation, verify:
+Po instalacji sprawdź wersję:
 ```bash
 docker -v
 ```
-You should see the installed Docker version.
 
-#### 8. Pull the Jenkins Docker Image  
-Run the following command in the terminal:
+Powinieneś zobaczyć zainstalowaną wersję Dockera.  
+
+#### 8. Pobierz obraz Dockera z Jenkinsem  
+Uruchom w terminalu:
 ```bash
 docker pull jenkins/jenkins:lts
 ```
 
 ---
 
-### ✅ You're All Set!
+## Wszystko gotowe!
 
-Make sure everything is installed and working **before the workshop** to ensure smooth participation.  
-See you soon!
-
+Upewnij się, że wszystko jest zainstalowane i działa **przed warsztatem**, aby zapewnić płynny przebieg zajęć.  
+Do zobaczenia wkrótce!  
