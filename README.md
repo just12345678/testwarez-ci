@@ -8,8 +8,8 @@ Aby zweryfikować środowisko, którego będziemy używać podczas warsztatu, pr
 
 ## Przydatne Linki
 
-- Notatki: https://docs.google.com/document/d/1JfIuWjgBbResKPTzrceji3g5GSt9QvJpXweh9UNjCpE/edit?usp=sharing
-- Zadania i Rozwiązania: https://drive.google.com/drive/folders/1dnDwlfVnKyG71WMr8D9qgV8IbELYT5zo?usp=sharing
+- Notatki: https://docs.google.com/document/d/1CzefLaxKNcMCoEmwXlud9gISyGr0kmKh2XoUCH14304/edit?usp=sharing
+- Zadania i Rozwiązania: https://drive.google.com/drive/folders/1pG6eOxvO9SFT-QC6ypz60couVn14J550?usp=sharing
   
 ## INSTRUKCJE DO WARSZTATU
 
